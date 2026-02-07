@@ -12,13 +12,13 @@ export default function Home() {
           This site contains weekly assignments for the CPRG 306 course.
         </p>
 
-        <h2 className="text-xl font-semibold mb-3">Assignments</h2>
+        <h2 className="text-xl text-blue-900 font-semibold mb-3">Assignments</h2>
 
         <ul className="space-y-3">
           <li>
             <Link
               href="/week-2"
-              className="block p-3 rounded-md bg-violet-100 hover:bg-slate-200 transition"
+              className="block p-3 rounded-md bg-violet-100 text-black hover:bg-slate-200 transition"
             >
               📘 Week 2 – Assignment
             </Link>
@@ -27,9 +27,18 @@ export default function Home() {
           <li>
             <Link
               href="/week-3"
-              className="block p-3 rounded-md bg-green-100 hover:bg-slate-200 transition"
+              className="block p-3 rounded-md bg-green-100 text-black hover:bg-slate-200 transition"
             >
               🛒 Week 3 – Shopping List
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/week-4"
+              className="block p-3 rounded-md bg-yellow-100 text-black hover:bg-slate-200 transition"
+            >
+              🛍️ Week 4 – Categorized Shopping List
             </Link>
           </li>
         </ul>
