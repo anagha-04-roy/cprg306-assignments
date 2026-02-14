@@ -41,6 +41,15 @@ export default function Home() {
               🛍️ Week 4 – Categorized Shopping List
             </Link>
           </li>
+
+          <li>
+            <Link
+              href="/week-5"
+              className="block p-3 rounded-md bg-pink-100 text-black hover:bg-slate-200 transition"
+            >
+              ➕ Week 5 - Controlled Component
+            </Link>
+          </li>
         </ul>
       </div>
     </main>
