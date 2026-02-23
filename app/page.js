@@ -36,7 +36,7 @@ export default function Home() {
           <li>
             <Link
               href="/week-4"
-              className="block p-3 rounded-md bg-yellow-100 text-black hover:bg-slate-200 transition"
+              className="block p-3 rounded-md bg-pink-100 text-black hover:bg-slate-200 transition"
             >
               🛍️ Week 4 – Categorized Shopping List
             </Link>
@@ -45,9 +45,18 @@ export default function Home() {
           <li>
             <Link
               href="/week-5"
-              className="block p-3 rounded-md bg-pink-100 text-black hover:bg-slate-200 transition"
+              className="block p-3 rounded-md bg-yellow-100 text-black hover:bg-slate-200 transition"
             >
               ➕ Week 5 - Controlled Component
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              href="/week-6"
+              className="block p-3 rounded-md bg-red-100 text-black hover:bg-slate-200 transition"
+            >
+              📋 Week 6 - Sorting and Grouping
             </Link>
           </li>
         </ul>
