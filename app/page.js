@@ -59,6 +59,15 @@ export default function Home() {
               📋 Week 6 - Sorting and Grouping
             </Link>
           </li>
+
+          <li>
+            <Link
+              href="/week-7"
+              className="block p-3 rounded-md bg-blue-100 text-black hover:bg-slate-200 transition"
+            >
+              🛒 Week 7 – Shopping List with State
+            </Link>
+          </li>
         </ul>
       </div>
     </main>
