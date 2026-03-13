@@ -68,6 +68,15 @@ export default function Home() {
               🛒 Week 7 – Shopping List with State
             </Link>
           </li>
+
+          <li>
+            <Link
+              href="/week-8"
+              className="block p-3 rounded-md bg-orange-100 text-black hover:bg-slate-200 transition"
+            >
+              🍔 Week 8 – Shopping List & Meal Ideas
+            </Link>
+          </li>
         </ul>
       </div>
     </main>
