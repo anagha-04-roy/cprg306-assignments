@@ -77,6 +77,15 @@ export default function Home() {
               🍔 Week 8 – Shopping List & Meal Ideas
             </Link>
           </li>
+
+          <li>
+            <Link
+              href="/week-9"
+              className="block p-3 rounded-md bg-purple-100 text-black hover:bg-slate-200 transition"
+            >
+              🔐 Week 9 – Firebase Auth
+            </Link>
+          </li>
         </ul>
       </div>
     </main>
